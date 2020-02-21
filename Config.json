@@ -1,0 +1,329 @@
+{
+	"Threatlist": [
+					{
+					"SourceFile": "https://feodotracker.abuse.ch/downloads/ipblocklist.csv",
+					"OutputFile": "Feodotracker_abuse_ch_blockediplist.txt",
+					"Enabled": "true",
+					"Parser": "ft_abuse_blocklist"
+					},
+					{
+					"SourceFile": "https://urlhaus.abuse.ch/downloads/csv/",
+					"OutputFile": "Urlhaus_abuse_ch_blockeddomainlist.txt",
+					"Enabled": "true",
+					"Parser": "urlhaus_abuse_blockeddomainlist"
+					},
+					{
+					"SourceFile": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist",
+					"OutputFile": "zeustracker_abuse_ch_blockeddomainlist.txt",
+					"Enabled": "false",
+					"Parser": "zeustracker_abuse_BlockedDomainlist"
+					},
+					{
+					"SourceFile": "https://zeustracker.abuse.ch/blocklist.php?download=ipblocklist",
+					"OutputFile": "zeustracker_abuse_ch_blockediplist.txt",
+					"Enabled": "false",
+					"Parser": "zeustracker_abuse_blockediplist"
+					},
+					{
+					"SourceFile": "https://www.dan.me.uk/torlist/?exit",
+					"OutputFile": "TorExitNodes_IPlist.txt",
+					"Enabled": "true",
+					"Parser": "Generic_PARSER_NOEdit"
+					},
+					{
+					"SourceFile": "http://rules.emergingthreats.net/blockrules/compromised-ips.txt",
+					"OutputFile": "EmergingThreatlist_blockediplist.txt",
+					"Enabled": "true",
+					"Parser": "Generic_PARSER_NOEdit"
+					},
+					{
+					"SourceFile": "https://panwdbl.appspot.com/lists/mdl.txt",
+					"OutputFile": "Panwdbl_blockediplist.txt",
+					"Enabled": "false",
+					"Parser": "Generic_PARSER_1_0"
+					},
+					{
+					"SourceFile": "https://www.dan.me.uk/torlist/",
+					"OutputFile": "Tor_Node_List.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "http://cybercrime-tracker.net/all.php",
+					"OutputFile": "CyberCrimeTracker_Domain.txt",
+					"Enabled": "false",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://hosts-file.net/grm.txt",
+					"OutputFile": "list5.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://osint.bambenekconsulting.com/feeds/c2-ipmasterlist-high.txt",
+					"OutputFile": "OSINT_bambenekconsulting_CandC_IPs.txt",
+					"Enabled": "true",
+					"Parser": "osint_bambenekconsulting"
+					},
+					{
+					"SourceFile": "http://data.phishtank.com/data/online-valid.csv",
+					"OutputFile": "Phishtank_Domains.txt",
+					"Enabled": "true",
+					"Parser": "phishtank_parser"
+					},
+					{
+					"SourceFile": "http://dns-bh.sagadc.org/dynamic_dns.txt",
+					"OutputFile": "list8.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://labs.snort.org/feeds/ip-filter.blf",
+					"OutputFile": "list9.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://longtail.it.marist.edu/honey/current-ip-addresses.txt",
+					"OutputFile": "list10.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://longtail.it.marist.edu/honey/last-7-days-ip-addresses.txt ",
+					"OutputFile": "list11.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://booterblacklist.com/data/booterlist_latest.txt",
+					"OutputFile": "list12.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://home.nuug.no/~peter/pop3gropers.txt ",
+					"OutputFile": "list13.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://raw.githubusercontent.com/pan-unit42/iocs/master/diamondfox/diamondfox_panels.txt",
+					"OutputFile": "list14.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://ransomwaretracker.abuse.ch/feeds/csv/",
+					"OutputFile": "list15.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://hosts-file.net/psh.txt ",
+					"OutputFile": "list16.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://hosts-file.net/emd.txt",
+					"OutputFile": "list17.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://openphish.com/feed.txt",
+					"OutputFile": "Openphish_domainlist.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://raw.githubusercontent.com/ktsaou/blocklist-ipsets/master/firehol_level1.netset ",
+					"OutputFile": "list19.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://cinsscore.com/list/ci-badguys.txt ",
+					"OutputFile": "list20.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://reputation.alienvault.com/reputation.generic",
+					"OutputFile": "list21.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://lists.blocklist.de/lists/all.txt",
+					"OutputFile": "Blocklist_De_IPlist.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://dataplane.org/vncrfb.txt",
+					"OutputFile": "list23.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://dataplane.org/sshpwauth.txt",
+					"OutputFile": "list24.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://dataplane.org/sipregistration.txt",
+					"OutputFile": "list25.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://dataplane.org/sipquery.txt",
+					"OutputFile": "list26.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://dataplane.org/sipinvitation.txt",
+					"OutputFile": "list27.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://osint.bambenekconsulting.com/feeds/dga-feed-high.csv",
+					"OutputFile": "list28.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://vxvault.net/URL_List.php",
+					"OutputFile": "list29.txt",
+					"Enabled": "false",
+					"Parser": "Generic_PARSER_delete_4_T"
+					},
+					{
+					"SourceFile": "https://sslbl.abuse.ch/blacklist/dyre_sslipblacklist.csv",
+					"OutputFile": "list30.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://sslbl.abuse.ch/blacklist/dyre_sslipblacklist.csv",
+					"OutputFile": "list31.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://cybercrime-tracker.net/ccamlist.php",
+					"OutputFile": "list32.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://cybercrime-tracker.net/ccamgate.php",
+					"OutputFile": "Cybercrime_DomainList.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://blocklist.greensnow.co/greensnow.txt",
+					"OutputFile": "GreenSnow_IPlist.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "http://www.cert.at/static/downloads/data/conficker/all_domains.txt",
+					"OutputFile": "Cert_at_AllDomainsList.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list.txt?inline=false",
+					"OutputFile": "CoinBlocker_DomainList.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_optional.txt?inline=false",
+					"OutputFile": "CoinBlocker_DomainList_optional.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/list_browser.txt?inline=false",
+					"OutputFile": "CoinBlocker_DomainList_browser.txt",
+					"Enabled": "true",
+					"Parser": "generic_parser_noedit"
+					},
+					{
+					"SourceFile": "https://gitlab.com/ZeroDot1/CoinBlockerLists/raw/master/MiningServerIPList.txt?inline=false",
+					"OutputFile": "list39.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://api.cybercure.ai/feed/get_ips?type=csv",
+					"OutputFile": "list40.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://api.cybercure.ai/feed/get_url?type=csv",
+					"OutputFile": "list41.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://api.cybercure.ai/feed/get_hash?type=csv ",
+					"OutputFile": "list42.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://www.ipspamlist.com/public_feeds.csv",
+					"OutputFile": "list43.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://mirai.security.gives/data/ip_list.txt",
+					"OutputFile": "list44.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://malsilo.gitlab.io/feeds/dumps/url_list.txt",
+					"OutputFile": "list45.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://malsilo.gitlab.io/feeds/dumps/ip_list.txt",
+					"OutputFile": "list46.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "https://malshare.com/daily/malshare.current.all.txt ",
+					"OutputFile": "list47.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://benkow.cc/export_rat.php",
+					"OutputFile": "list48.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					},
+					{
+					"SourceFile": "http://benkow.cc/export.php",
+					"OutputFile": "list49.txt",
+					"Enabled": "false",
+					"Parser": "need_PARSER"
+					}
+				]
+
+}
